@@ -16,10 +16,6 @@ function LandingPage() {
       <header className='d-flex justify-content-between mt-2'>
         <img src={logo} alt='App Logo' className='mr-2 logo-style' />
 
-        <h1 className='display-5 fw-bold thq-heading-2'>
-          Notes Manager
-        </h1>
-
         <div className='d-flex justify-content-center gap-3 mb-4 mt-2'>
           <button
             className='btn btn-primary btn-lg'

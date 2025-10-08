@@ -1,7 +1,7 @@
 import Login from './Login';
 import loginImg from '../assets/loginImg.JPG';
 import { useNavigate } from 'react-router-dom';
-import logoAlter from '../assets/logoAlter.PNG';
+import logo from '../assets/logo.png';
 
 function LoginPage() {
   const navigate = useNavigate();
@@ -10,10 +10,10 @@ function LoginPage() {
     <div className='container-fluid vh-100'>
       <div className='row h-100'>
         <div className='col-md-4  align-items-center justify-content-center'>
-          <div className='text-center margin-top--6'>
+          <div className='text-center'>
             <img
               className='mt-1'
-              src={logoAlter}
+              src={logo}
               alt='App Logo'
               style={{ width: '200px' }}
             />

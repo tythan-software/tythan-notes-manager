@@ -5,7 +5,7 @@ import axiosInstance from '../services/axiosInstance';
 import { useEffect, useState } from 'react';
 import NotesPerCategoryChart from '../components/charts/NotesPerCategoryChart';
 import NotesPerTagChart from '../components/charts/NotesPerTagChart';
-import logoAlter from '../assets/logoAlter.PNG';
+import logo from '../assets/logo.png';
 import TagCloudChart from '../components/TagCloudChart';
 import NotesCountOverTimeChart from '../components/charts/NotesCountOverTimeChart';
 import { useError } from '../context/ErrorContext';
@@ -82,8 +82,7 @@ function Dashboard() {
       <div className='d-flex justify-content-between align-items-center mb-4'>
         <div>
           <div className='d-flex align-items-center mb-2'>
-            <img src={logoAlter} alt='App Logo' className='logo-alter-img' />
-            <h2 className='m-0 thq-heading-2'>Notes Manager</h2>
+            <img src={logo} alt='App Logo' className='logo-alter-img' />
           </div>
           <p className='text-muted thq-body-small'>
             Hi {user?.name}, Stay organized and track your preparation like a

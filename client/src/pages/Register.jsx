@@ -64,7 +64,7 @@ function Register() {
           style={{ borderRadius: '2.375rem' }}
         >
           <div className='text-center mb-4'>
-            <img src={logo} alt='App Logo' style={{ width: '60px' }} />
+            <img src={logo} alt='App Logo' style={{ width: '160px' }} />
           </div>
           <h3 className='text-center mb-3'>Create Account</h3>
           {error && <div className='alert alert-danger'>{error}</div>}

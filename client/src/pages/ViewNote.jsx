@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import axiosInstance from '../services/axiosInstance';
-import logoAlter from '../assets/logoAlter.PNG';
+import logo from '../assets/logo.png';
 
 function ViewNote() {
   const { id } = useParams();
@@ -48,10 +48,10 @@ function ViewNote() {
 
   return (
     <div className='container mt-4' style={{ maxWidth: '700px' }}>
-      <div className='text-center margin-top--6'>
+      <div className='text-center'>
         <img
           className='mt-1'
-          src={logoAlter}
+          src={logo}
           alt='App Logo'
           style={{ width: '200px' }}
         />
