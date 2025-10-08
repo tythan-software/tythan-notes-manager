@@ -59,26 +59,16 @@ interview-notes-manager/
    http://localhost:3000
 
 ---
-   
-
-## Live URLs
-
-- Frontend (Netlify): ...
-
-- Backend API (Render): ...
-
----
-
 
 ## Screenshots
 - Landing Page:
-  <img width="1365" height="598" alt="image" src="https://github.com/user-attachments/assets/e90ab463-c4be-4b98-bb4d-4e060c17b812" />
+  <img width="1365" height="598" alt="image" src="/screenshots/landing-page.png" />
 
 - Dashboard Analytics:
-  <img width="1365" height="602" alt="image" src="https://github.com/user-attachments/assets/4beb3312-00e3-40a4-9b20-c0a5732cfa86" />
+  <img width="1365" height="602" alt="image" src="/screenshots/dashboard-analytics.png" />
 
 - Notes List with Filters:
-  <img width="1362" height="599" alt="image" src="https://github.com/user-attachments/assets/7ba2890f-751e-4db3-a5ef-8bc8db9b7141" />
+  <img width="1362" height="599" alt="image" src="/screenshots/notes-list.png" />
 
 ---
 
