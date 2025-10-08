@@ -27,7 +27,7 @@ function App() {
 
   return (
     <ErrorBoundary>
-      {/* <AuthProvider> */}
+      <AuthProvider>
         <Router>
           <GlobalErrorBanner />
           <ToastContainer position='top-right' autoClose={3000} />
@@ -79,7 +79,7 @@ function App() {
             <Route path='*' element={<NotFound />} />
           </Routes>
         </Router>
-      {/* </AuthProvider> */}
+      </AuthProvider>
     </ErrorBoundary>
   );
 }

@@ -54,9 +54,9 @@ function Register() {
         }}
       >
         <div className='text-center mb-4'>
-          <h2 className='thq-heading-2'>Join Interview Notes Manager</h2>
+          <h2 className='thq-heading-2'>Join Notes Manager</h2>
           <p className='text-muted thq-body-small'>
-            Organize your tech prep and stay ready.
+            Organize your life and save your time.
           </p>
         </div>
         <div

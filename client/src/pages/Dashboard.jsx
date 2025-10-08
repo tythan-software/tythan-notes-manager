@@ -83,7 +83,7 @@ function Dashboard() {
         <div>
           <div className='d-flex align-items-center mb-2'>
             <img src={logoAlter} alt='App Logo' className='logo-alter-img' />
-            <h2 className='m-0 thq-heading-2'>Interview Notes Manager</h2>
+            <h2 className='m-0 thq-heading-2'>Notes Manager</h2>
           </div>
           <p className='text-muted thq-body-small'>
             Hi {user?.name}, Stay organized and track your preparation like a
