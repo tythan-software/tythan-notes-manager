@@ -23,16 +23,16 @@ Helps you organize, categorize, and track your notes.
 
 ## Tech Stack
 
-| Frontend  | Backend | Database | Deployment |
-|-----------|---------|----------|------------|
-| React     | Node.js | MongoDB Atlas | Netlify (Frontend) |
-| Bootstrap | Express | Mongoose | Render (Backend API) |
+| Frontend  | Backend | Database      | Deployment           |
+|-----------|---------|---------------|----------------------|
+| React     | Node.js | MongoDB Atlas | Netlify (Frontend)   |
+| Bootstrap | Express | Mongoose      | Render (Backend API) |
 
 ---
 
 ## Project Structure
 
-interview-notes-manager/  
+notes-manager/  
 |── client/ # React Frontend  
 |── server/ # Node.js + Express Backend  
 |── README.md
